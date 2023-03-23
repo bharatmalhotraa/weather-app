@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather forecasting web app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="color: aliceblue;"  align = 'center'  ><b>Weather Forecast</b></h1>
+<div class="content" id="content" >
+    <div id="tempinfo" class="font">
+        <div style="display: grid" id="day1" class="font">
+        </div>
+    </div>
+
+    <div id="locationinfo" class="content box" >
+        <div style="display: inline-block;" class="content">
+            <h2>latitude</h2>
+            <input type="text" id="latitude">
+            
+        </div>
+        <div style="display: inline-block;" class="content">
+            <h2>longitude</h2>
+            <input type="text" id="longitude">
+        </div>
+        <button style="color: darkgrey; background-color: antiquewhite;" id="findlocation" onclick="findweather()">Find Forecast</button>  
+    </div>
+
+</div>
+<div style="display: flexbox;"></div>
+<div id="day2"></div>
+<div id="day3"></div>
+<div id="day4"></div>
+<div id="day5"></div>
+<script src="javascript.js"></script>    
+</body>
+</html>

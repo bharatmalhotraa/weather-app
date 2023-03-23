@@ -1,0 +1,30 @@
+body {
+    background-color: #1E1E1E;
+}
+
+.font {
+    color: aliceblue;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-right: 70px;
+    padding-bottom: 10px;
+    background: grey;
+
+}
+
+.content {
+    display: flex; 
+    justify-content: space-between; 
+    justify-content: space-around;
+}
+
+.box {
+    color: aliceblue;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-spacing: 20px;
+    padding-inline: 30px;
+    background: grey;    
+}
